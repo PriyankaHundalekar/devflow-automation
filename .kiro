@@ -1,0 +1,91 @@
+# DevFlow Automator - Kiro Hero Week 2 Challenge
+
+## Project Overview
+**"I hate doing repetitive dev tasks, so I built this Swiss Army knife"**
+
+DevFlow Automator is a comprehensive CLI tool that tackles multiple developer pain points in one unified solution. Instead of building separate tools for each task, this project combines the most annoying developer workflows into a single, AI-powered automation suite.
+
+## The Problem
+As developers, we spend countless hours on repetitive tasks:
+- Writing the same commit messages over and over
+- Manually updating README badges when they break
+- Setting up identical project structures
+- Tracking coding time across projects
+- Keeping documentation in sync with code changes
+- Writing boilerplate code for common patterns
+
+## The Solution
+DevFlow Automator uses AWS Bedrock AI to intelligently automate these workflows:
+
+### 🤖 AI-Powered Commit Messages
+- Analyzes git diffs using Claude AI
+- Generates conventional commit messages
+- Learns from your code changes
+
+### 🏷️ Smart Badge Management  
+- Auto-detects GitHub repository info
+- Updates README badges automatically
+- Supports build status, version, license, and more
+
+### ⏱️ Intelligent Time Tracking
+- Auto-detects current project context
+- Tracks active coding time with file watching
+- Provides detailed productivity analytics
+
+### 🚀 Environment Bootstrapper
+- One-command project setup for Python, Node.js, React, FastAPI
+- Creates complete project structure with best practices
+- Initializes git repository and dependencies
+
+### 🏗️ Code Generation
+- AI-powered boilerplate generation
+- Pre-built templates for common patterns
+- Custom code generation from natural language
+
+### 📚 Documentation Sync
+- Extracts function signatures from code
+- Generates API documentation using AI
+- Keeps README in sync with code changes
+
+## Technical Implementation
+- **Language**: Python 3.8+
+- **AI Provider**: AWS Bedrock (Claude 3 Haiku)
+- **CLI Framework**: Rich for beautiful terminal output
+- **File Watching**: Watchdog for real-time tracking
+- **Git Integration**: GitPython for repository operations
+
+## Unique Features
+1. **Unified Interface**: All tools accessible through single CLI
+2. **AI-First Approach**: Uses AWS Bedrock for intelligent automation
+3. **Context Awareness**: Auto-detects project type and structure
+4. **Real-time Monitoring**: File watching for active time tracking
+5. **Cross-Platform**: Works on Windows, macOS, and Linux
+
+## Installation & Usage
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up AWS credentials in .env file
+# Run any module
+python devflow_automator.py <module> [options]
+
+# Examples:
+python devflow_automator.py commit          # AI commit messages
+python devflow_automator.py badges all     # Update all badges
+python devflow_automator.py track start    # Start time tracking
+python devflow_automator.py setup python   # Bootstrap Python project
+```
+
+## Impact
+This tool addresses the "death by a thousand cuts" problem in developer productivity. While each individual task might only take a few minutes, they add up to hours of lost productivity per week. DevFlow Automator reclaims that time and mental energy for actual coding.
+
+## Future Enhancements
+- Integration with more AI models
+- Custom workflow automation
+- Team collaboration features
+- IDE extensions
+- Cloud deployment automation
+
+---
+*Built for Kiro Hero Week 2 Challenge - Lazy Automation*
