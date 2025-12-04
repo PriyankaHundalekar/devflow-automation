@@ -2,7 +2,7 @@
 
 
 <!-- BADGES START -->
-![Stars](https://img.shields.io/github/stars/PriyankaHundalekar/devflow-automator?style=flat-square) ![Issues](https://img.shields.io/github/issues/PriyankaHundalekar/devflow-automator?style=flat-square)
+![Stars](https://img.shields.io/github/stars/PriyankaHundalekar/devflow-automator?style=flat-square) ![Issues](https://img.shields.io/github/issues/PriyankaHundalekar/devflow-automator?style=flat-square) ![License](https://img.shields.io/github/license/PriyankaHundalekar/devflow-automator?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/PriyankaHundalekar/devflow-automator?style=flat-square)
 <!-- BADGES END -->
 > "I hate doing repetitive dev tasks, so I built this Swiss Army knife"
 
@@ -30,8 +30,8 @@ Analyze repository statistics, commit history, and file change patterns.
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd devflow-automator
+git clone https://github.com/PriyankaHundalekar/devflow-automation.git
+cd devflow-automation
 ```
 
 2. **Create virtual environment (recommended)**
