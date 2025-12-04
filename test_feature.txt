@@ -1,0 +1,2 @@
+This is a test file to demonstrate the AI Commit Messages feature.
+Testing the DevFlow Automator app.

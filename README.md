@@ -2,7 +2,7 @@
 
 
 <!-- BADGES START -->
-![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/devflow-automator/ci.yml?branch=main)
+![Stars](https://img.shields.io/github/stars/PriyankaHundalekar/devflow-automator?style=flat-square) ![Issues](https://img.shields.io/github/issues/PriyankaHundalekar/devflow-automator?style=flat-square)
 <!-- BADGES END -->
 > "I hate doing repetitive dev tasks, so I built this Swiss Army knife"
 

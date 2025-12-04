@@ -55,17 +55,6 @@ class AWSAIClient:
         """
         return self.generate_text(prompt, max_tokens=100)
     
-    def generate_code(self, description):
-        """Generate code based on description"""
-        prompt = f"""
-        Generate clean, well-commented Python code for: {description}
-        
-        Include:
-        - Proper error handling
-        - Type hints
-        - Docstrings
-        - Best practices
-        
-        Return only the code, no explanations.
-        """
-        return self.generate_text(prompt, max_tokens=800)
+    def generate_code(self, prompt):
+        """Generate code based on detailed prompt"""
+        return self.generate_text(prompt, max_tokens=1500)
